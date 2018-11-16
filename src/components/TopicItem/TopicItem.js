@@ -6,7 +6,7 @@ import './TopicItem.css'
 class TopicItem extends Component {
     render() {
         return(
-            <ListGroupItem tag="a" href={`/topic/javascript/thread/test`}>{this.props.message}</ListGroupItem>
+            <ListGroupItem tag="a" href={`/topic/${this.props.topic}/thread/test`}>{this.props.message}</ListGroupItem>
         );
     }
 }

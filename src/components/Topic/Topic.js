@@ -23,16 +23,16 @@ class Topic extends Component {
                     <h1>{this.state.topicID}</h1>
                 </Jumbotron>
                 <ListGroup flush>
-                    <TopicItem message="Testing" />
-                    <TopicItem message="Testing" />
-                    <TopicItem message="Testing" />
-                    <TopicItem message="Testing" />
-                    <TopicItem message="Testing" />
-                    <TopicItem message="Testing" />
-                    <TopicItem message="Testing" />
-                    <TopicItem message="Testing" />
-
+                    <TopicItem topic={ this.state.topicID } message="Testing" />
+                    <TopicItem topic={ this.state.topicID }  message="Testing" />
+                    <TopicItem topic={ this.state.topicID }  message="Testing" />
+                    <TopicItem topic={ this.state.topicID }  message="Testing" />
+                    <TopicItem topic={ this.state.topicID }  message="Testing" />
+                    <TopicItem topic={ this.state.topicID }  message="Testing" />
+                    <TopicItem topic={ this.state.topicID }  message="Testing" />
+                    <TopicItem topic={ this.state.topicID }  message="Testing" />
                 </ListGroup>
+                <Button href="/">Home</Button>
             </div>
         )
     }

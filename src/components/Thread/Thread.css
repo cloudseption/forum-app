@@ -27,8 +27,9 @@
 
 }
 
-#submit_button {
+.btn {
     margin-top: 10px;
+    margin-right: 5px;
 }
 
 #form_group {
