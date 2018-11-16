@@ -5,6 +5,8 @@ import { Card, CardImg, CardText, CardBody,
 
 import './Topic.css'
 
+import TopicItem from '../TopicItem/TopicItem';
+
 class Topic extends Component {
     constructor(props) {
         super(props);
@@ -21,18 +23,14 @@ class Topic extends Component {
                     <h1>{this.state.topicID}</h1>
                 </Jumbotron>
                 <ListGroup flush>
-                    <ListGroupItem tag="a" href="#">Cras justo odio</ListGroupItem>
-                    <ListGroupItem tag="a" href="#">Dapibus ac facilisis in</ListGroupItem>
-                    <ListGroupItem tag="a" href="#">Morbi leo risus</ListGroupItem>
-                    <ListGroupItem tag="a" href="#">Porta ac consectetur ac</ListGroupItem>
-                    <ListGroupItem tag="a" href="#">Vestibulum at eros</ListGroupItem>
-                    <ListGroupItem tag="a" href="#">Cras justo odio</ListGroupItem>
-                    <ListGroupItem tag="a" href="#">Dapibus ac facilisis in</ListGroupItem>
-                    <ListGroupItem tag="a" href="#">Morbi leo risus</ListGroupItem>
-                    <ListGroupItem tag="a" href="#">Porta ac consectetur ac</ListGroupItem>
-                    <ListGroupItem tag="a" href="#">Vestibulum at eros</ListGroupItem>
-                    <ListGroupItem tag="a" href="#">Cras justo odio</ListGroupItem>
-                    <ListGroupItem tag="a" href="#">Dapibus ac facilisis in</ListGroupItem>
+                    <TopicItem message="Testing" />
+                    <TopicItem message="Testing" />
+                    <TopicItem message="Testing" />
+                    <TopicItem message="Testing" />
+                    <TopicItem message="Testing" />
+                    <TopicItem message="Testing" />
+                    <TopicItem message="Testing" />
+                    <TopicItem message="Testing" />
 
                 </ListGroup>
             </div>
